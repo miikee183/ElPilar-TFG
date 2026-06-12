@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de la Compra - Pescadería El Pilar</title>
+    <link rel="stylesheet" href="/static/css/General.css">
+    <link rel="stylesheet" href="/static/css/Carrito.css">
+    <link rel="stylesheet" href="/static/css/Comerciante.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar-top">
+        <div class="container">
+            <div class="logo-container">
+                <img src="/static/img/LogoPesca.png" alt="Logo El Pilar" class="logo-img">
+                <span class="brand-name">EL PILAR</span>
+            </div>
+            <nav id="nav-menu">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Login.html">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container cart-container" style="margin-top: 50px; margin-bottom: 60px; min-height: 70vh;">
+        <h1 class="page-title"><i class="fas fa-shopping-cart" style="color:var(--azul-claro);"></i> Tu Cesta de la
+            Compra</h1>
+        <div class="tabs-container">
+            <button class="tab-btn active" data-tab="carrito">Mi Carrito</button>
+            <button class="tab-btn" data-tab="mis-pedidos">Mis Pedidos</button>
+        </div>
+        <div class="tab-content active" id="tab-carrito">
+            <div class="cart-layout">
+                <div class="cart-items" id="cart-items-container">
+                </div>
+                <div class="cart-summary">
+                    <h2>Completar Pedido</h2>
+                    <div class="summary-row total-row">
+                        <span>Total a Pagar:</span>
+                        <span id="cart-total-price">0.00 €</span>
+                    </div>
+                    <form id="order-form" class="order-form">
+                        <div class="input-group">
+                            <label for="correo_order"><i class="fas fa-envelope"></i> Correo Electrónico
+                                Verificado</label>
+                            <input type="email" id="correo_order" required readonly
+                                style="background-color: #f0f0f0; border:2px dashed #ccc; cursor: not-allowed;">
+                        </div>
+                        <div class="input-group">
+                            <label for="telefono_order"><i class="fas fa-phone"></i> Número de Teléfono
+                                Localizador</label>
+                            <input type="tel" id="telefono_order" required placeholder="Ej. 654 321 098"
+                                autocomplete="off">
+                        </div>
+                        <div class="input-group">
+                            <label for="domicilio_order"><i class="fas fa-map-marker-alt"></i> Domicilio de Entrega
+                                Directa</label>
+                            <input type="text" id="domicilio_order" required
+                                placeholder="Calle, Número, Puerta, Ciudad..." autocomplete="off">
+                        </div>
+                        <div class="input-group">
+                            <label for="comentario_order"><i class="fas fa-comment-dots"></i> Comentario
+                                (opcional)</label>
+                            <textarea id="comentario_order"
+                                placeholder="Dinos si quieres el pescado limpio, en rodajas, o cualquier otra indicación..."
+                                rows="3"
+                                style="width: 100%; border: 1px solid #ccc; border-radius: 4px; padding: 10px; font-family: inherit; font-size: 1rem;"></textarea>
+                        </div>
+                        <div
+                            style="background-color: #fffbeb; border-left: 4px solid #f59e0b; padding: 12px; margin-bottom: 20px; border-radius: 4px;">
+                            <p style="margin: 0; color: #b45309; font-size: 0.95rem; font-weight: 600;">
+                                <i class="fas fa-info-circle"></i> Aviso Importante: El pago se hará en persona al
+                                recoger o recibir su pedido.
+                            </p>
+                        </div>
+                        <button type="submit" class="btn btn-checkout" id="btn-submit-order"><i
+                                class="fas fa-paper-plane" style="margin-right:8px;"></i> Solicitar Pedido</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="tab-content" id="tab-mis-pedidos">
+            <div class="user-orders-section" style="padding-top: 10px;">
+                <h2 style="color:var(--azul-oscuro); margin-bottom: 20px;"><i class="fas fa-history"
+                        style="color:var(--naranja);"></i> Mi Historial de Pedidos</h2>
+                <div id="user-orders-container" style="display: flex; flex-direction: column; gap: 15px;">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-bottom">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>EL PILAR</h3>
+                <p>© 2026 Pescadería El Pilar - Mercado de Tetuán - Madrid, España</p>
+            </div>
+            <div class="footer-contact">
+                <p>Teléfono: +34 915 79 34 36</p>
+                <p>Email: info@elpilarpescaderia.com</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/static/js/Auth.js"></script>
+    <script src="/static/js/Carrito.js?v=6"></script>
+</body>
+
+</html>

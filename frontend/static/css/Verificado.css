@@ -1,0 +1,14 @@
+/* Verificado.css - Estilos específicos para la página de verificación */
+
+.verification-icon {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.icon-success {
+    color: #28a745;
+}
+
+.icon-error {
+    color: #dc3545;
+}

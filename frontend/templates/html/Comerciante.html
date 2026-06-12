@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Comerciante - Pescadería El Pilar</title>
+    <link rel="stylesheet" href="/static/css/General.css">
+    <link rel="stylesheet" href="/static/css/Comerciante.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar-top">
+        <div class="container">
+            <div class="logo-container">
+                <img src="/static/img/LogoPesca.png" alt="Logo El Pilar" class="logo-img">
+                <span class="brand-name">EL PILAR</span>
+            </div>
+            <nav id="nav-menu">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Login.html">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container dashboard-container" style="margin-top: 50px; margin-bottom: 60px; min-height: 70vh;">
+        <div id="section-pedidos">
+            <h1 class="page-title"><i class="fas fa-clipboard-list" style="color:var(--azul-claro);"></i> Gestión de
+                Pedidos</h1>
+            <div class="tabs-container">
+                <button class="tab-btn active" data-tab="pendientes">Pendientes / Vistos</button>
+                <button class="tab-btn" data-tab="entregados">Entregados</button>
+                <button class="tab-btn" data-tab="cancelados">Cancelados</button>
+            </div>
+            <div class="tab-content active" id="tab-pendientes">
+            </div>
+            <div class="tab-content" id="tab-entregados">
+            </div>
+            <div class="tab-content" id="tab-cancelados">
+            </div>
+        </div>
+        <div id="section-comentarios" style="display: none;">
+            <div class="tab-content active" id="tab-comentarios" style="display:block; padding: 0;">
+                <h2 style="color:var(--azul-oscuro); margin-bottom: 20px;"><i class="fas fa-inbox"></i> Sugerencias y
+                    Dudas de Clientes</h2>
+                <div id="comentarios-container" style="display: flex; flex-direction: column; gap: 15px;">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-bottom">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>EL PILAR</h3>
+                <p>© 2026 Pescadería El Pilar - Mercado de Tetuán - Madrid, España</p>
+            </div>
+            <div class="footer-contact">
+                <p>Teléfono: +34 915 79 34 36</p>
+                <p>Email: info@elpilarpescaderia.com</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/static/js/Auth.js"></script>
+    <script src="/static/js/Comerciante.js"></script>
+</body>
+
+</html>

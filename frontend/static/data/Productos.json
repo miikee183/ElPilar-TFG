@@ -1,0 +1,323 @@
+{
+  "pescados": [
+    {
+      "id": 1,
+      "nombre": "Merluza de Pincho",
+      "descripcion": "Carne blanca de textura excepcional, capturada artesanalmente.",
+      "precio": "18,59 €/kg",
+      "imagen": "../img/MerluzaPincho.jpeg"
+    },
+    {
+      "id": 2,
+      "nombre": "Bacalao Skrey",
+      "descripcion": "El pata negra del mar, bacalao noruego de temporada con carne firme.",
+      "precio": "14,99 €/kg",
+      "imagen": "../img/BacaladoSkrey.jpeg"
+    },
+    {
+      "id": 3,
+      "nombre": "Lomos de bacalao fresco",
+      "descripcion": "Corte premium sin espinas, ideal para confitar o cocinar al horno.",
+      "precio": "15,69 €/kg",
+      "imagen": "../img/Bacalao.jpeg"
+    },
+    {
+      "id": 4,
+      "nombre": "Lomos de bacalao desalado",
+      "descripcion": "En su punto óptimo de sal, listo para cocinar sus recetas favoritas.",
+      "precio": "18,59 €/kg",
+      "imagen": "../img/BacaladoDesalado.jpeg"
+    },
+    {
+      "id": 5,
+      "nombre": "Salmón Noruego",
+      "descripcion": "Rico en Omega-3, con una infiltración de grasa que lo hace meloso.",
+      "precio": "16,29 €/kg",
+      "imagen": "../img/Salmon.jpeg"
+    },
+    {
+      "id": 6,
+      "nombre": "Dorada",
+      "descripcion": "Pescado semigraso de sabor suave, perfecto para cocinar a la sal.",
+      "precio": "22,99 €/kg",
+      "imagen": "../img/Dorada.jpeg"
+    },
+    {
+      "id": 7,
+      "nombre": "Lubina",
+      "descripcion": "Carne magra y delicada, muy apreciada por su versatilidad en la cocina.",
+      "precio": "19,39 €/kg",
+      "imagen": "../img/Lubina.jpeg"
+    },
+    {
+      "id": 8,
+      "nombre": "Pescadilla de pincho (1kg)",
+      "descripcion": "Textura muy fina y digestiva, ideal para dietas saludables y niños.",
+      "precio": "16,59 €/kg",
+      "imagen": "../img/PescadillaPinchoP.jpeg"
+    },
+    {
+      "id": 9,
+      "nombre": "Pescadilla de pincho (grande)",
+      "descripcion": "Piezas seleccionadas de gran calibre, ideales para abrir a la espalda.",
+      "precio": "22,99 €/kg",
+      "imagen": "../img/PescadillaPincho.jpeg"
+    },
+    {
+      "id": 10,
+      "nombre": "Bonito",
+      "descripcion": "Pescado azul de temporada con carne sabrosa, ideal para marmitako.",
+      "precio": "18,99 €/kg",
+      "imagen": "../img/Bonito.jpeg"
+    },
+    {
+      "id": 11,
+      "nombre": "Atún",
+      "descripcion": "Gran valor nutricional, perfecto para plancha, tartar o tataki.",
+      "precio": "18,39 €/kg",
+      "imagen": "../img/Atun.jpeg"
+    },
+    {
+      "id": 12,
+      "nombre": "Emperador",
+      "descripcion": "Filetes de carne firme sin espinas, muy cómodo de comer y cocinar.",
+      "precio": "15,89 €/kg",
+      "imagen": "../img/Emperador.jpeg"
+    },
+    {
+      "id": 13,
+      "nombre": "Pargo",
+      "descripcion": "Sabor marisquero único y carne rosada muy valorada en gastronomía.",
+      "precio": "19,39 €/kg",
+      "imagen": "../img/Pargo.jpeg"
+    },
+    {
+      "id": 14,
+      "nombre": "Besugo",
+      "descripcion": "El rey de los asados navideños, con un sabor intenso y característico.",
+      "precio": "21,99 €/kg",
+      "imagen": "../img/Besugo.jpeg"
+    },
+    {
+      "id": 15,
+      "nombre": "Rape",
+      "descripcion": "Pescado blanco sin espinas centrales y carne tersa muy sabrosa.",
+      "precio": "17,89 €/kg",
+      "imagen": "../img/HuesosRape.jpeg"
+    },
+    {
+      "id": 16,
+      "nombre": "Sardinas",
+      "descripcion": "Tesoro del Mediterráneo rico en calcio, perfectas para asar.",
+      "precio": "15,79 €/kg",
+      "imagen": "../img/Sardinas.jpeg"
+    },
+    {
+      "id": 17,
+      "nombre": "Boquerones",
+      "descripcion": "Plateados y brillantes, ideales para freír o preparar en vinagre.",
+      "precio": "22,89 €/kg",
+      "imagen": "../img/BoqueronPequeño.jpeg"
+    },
+    {
+      "id": 18,
+      "nombre": "Caballas",
+      "descripcion": "Pescado azul muy nutritivo con un sabor potente y saludable.",
+      "precio": "18,99 €/kg",
+      "imagen": "../img/Caballas.jpeg"
+    },
+    {
+      "id": 19,
+      "nombre": "Gallo",
+      "descripcion": "Carne muy tierna, blanca y suave, excelente para filetear.",
+      "precio": "17,99 €/kg",
+      "imagen": "../img/GalloRacion.jpeg"
+    },
+    {
+      "id": 20,
+      "nombre": "Lenguados",
+      "descripcion": "Sabor delicado y textura inconfundible, el favorito de los más pequeños.",
+      "precio": "19,99 €/kg",
+      "imagen": "../img/Lenguado.jpeg"
+    },
+    {
+      "id": 21,
+      "nombre": "Perca congelada",
+      "descripcion": "Filetes limpios de sabor suave, ideales para empanar o plancha.",
+      "precio": "22,59 €/kg",
+      "imagen": "../img/Perca.jpeg"
+    },
+    {
+      "id": 22,
+      "nombre": "Pijotas",
+      "descripcion": "Merluza pequeña de carne extremadamente tierna, un clásico de la fritura.",
+      "precio": "25,49 €/kg",
+      "imagen": "../img/Pijotas.jpeg"
+    },
+    {
+      "id": 23,
+      "nombre": "Congrio",
+      "descripcion": "Sabor profundo, pieza fundamental para caldos y guisos tradicionales.",
+      "precio": "19,29 €/kg",
+      "imagen": "../img/Congrio.jpeg"
+    },
+    {
+      "id": 24,
+      "nombre": "Cazón",
+      "descripcion": "Carne blanca y cartilaginosa, tradicionalmente preparada en adobo.",
+      "precio": "21,89 €/kg",
+      "imagen": "../img/Cazon.jpeg"
+    }
+  ],
+  "mariscos": [
+    {
+      "id": 101,
+      "nombre": "Gamba Blanca Arrocera",
+      "descripcion": "Pequeño tamaño pero gran sabor, ideal para potenciar sus arroces.",
+      "precio": "27,99 €/kg",
+      "imagen": "../img/GambaArrocera.jpeg"
+    },
+    {
+      "id": 102,
+      "nombre": "Gamba de plancha",
+      "descripcion": "Seleccionada por su calibre, perfecta para disfrutar con sal gorda.",
+      "precio": "28,59 €/kg",
+      "imagen": "../img/GambasPlancha.jpeg"
+    },
+    {
+      "id": 103,
+      "nombre": "Langostino Fresco",
+      "descripcion": "Carne tersa y sabrosa, ideales tanto cocidos como a la plancha.",
+      "precio": "31,99 €/kg",
+      "imagen": "../img/LangostinoCocido.jpeg"
+    },
+    {
+      "id": 104,
+      "nombre": "Gambón",
+      "descripcion": "Gran tamaño y sabor intenso, la estrella de las barbacoas marinas.",
+      "precio": "32,99 €/kg",
+      "imagen": "../img/Gambones.jpeg"
+    },
+    {
+      "id": 105,
+      "nombre": "Gamba Roja",
+      "descripcion": "Manjar del Mediterráneo con un coral interno de sabor muy potente.",
+      "precio": "30,99 €/kg",
+      "imagen": "../img/GambaRoja.jpeg"
+    },
+    {
+      "id": 106,
+      "nombre": "Cigala Fresca",
+      "descripcion": "Uno de los mariscos más elegantes por su carne fina y dulce.",
+      "precio": "34,99 €/kg",
+      "imagen": "../img/Cigalas.jpeg"
+    },
+    {
+      "id": 107,
+      "nombre": "Carabineros",
+      "descripcion": "Sabor coralino inigualable, imprescindibles para arroces gourmet.",
+      "precio": "35,99 €/kg",
+      "imagen": "../img/Gambones.jpeg"
+    },
+    {
+      "id": 108,
+      "nombre": "Almeja Fina",
+      "descripcion": "Calidad suprema, excelentes para tomar crudas con limón o en salsa.",
+      "precio": "28,99 €/kg",
+      "imagen": "../img/Almejas.jpeg"
+    },
+    {
+      "id": 109,
+      "nombre": "Chirlas",
+      "descripcion": "Pequeño molusco de sabor marino intenso, ideal para pastas y guisos.",
+      "precio": "26,99 €/kg",
+      "imagen": "../img/Chirlas.jpeg"
+    },
+    {
+      "id": 110,
+      "nombre": "Bígaros",
+      "descripcion": "Caracoles de mar para picoteo, con el sabor más puro a roca y sal.",
+      "precio": "29,99 €/kg",
+      "imagen": "../img/Bigaros.jpeg"
+    },
+    {
+      "id": 111,
+      "nombre": "Mejillón Gallego",
+      "descripcion": "Rico en hierro y vitaminas, carne anaranjada de gran tamaño.",
+      "precio": "24,59 €/kg",
+      "imagen": "../img/Mejillones.jpeg"
+    },
+    {
+      "id": 112,
+      "nombre": "Coquinas",
+      "descripcion": "Delicadeza marina de sabor yodado, un auténtico lujo a la plancha.",
+      "precio": "27,99 €/kg",
+      "imagen": "../img/Coquinas.jpeg"
+    },
+    {
+      "id": 113,
+      "nombre": "Berberechos",
+      "descripcion": "Molusco de sabor muy puro, ideales al vapor para conservar su jugo.",
+      "precio": "41,99 €/kg",
+      "imagen": "../img/Berberechos.jpeg"
+    },
+    {
+      "id": 114,
+      "nombre": "Navajas",
+      "descripcion": "Carne firme y deliciosa, un clásico imprescindible a la plancha.",
+      "precio": "32,99 €/kg",
+      "imagen": "../img/Navajas.jpeg"
+    },
+    {
+      "id": 115,
+      "nombre": "Nécoras",
+      "descripcion": "Crustáceo de sabor profundo, pieza clave en cualquier mariscada.",
+      "precio": "33,99 €/kg",
+      "imagen": "../img/Necoras.jpeg"
+    },
+    {
+      "id": 116,
+      "nombre": "Centollo",
+      "descripcion": "El gigante de nuestras costas, con un sabor a mar incomparable.",
+      "precio": "35,99 €/kg",
+      "imagen": "../img/Centollo.jpeg"
+    },
+    {
+      "id": 117,
+      "nombre": "Bogavante",
+      "descripcion": "El aristócrata del mar, perfecto para celebrar con un arroz caldoso.",
+      "precio": "36,99 €/kg",
+      "imagen": "../img/Bogavante.jpeg"
+    }
+  ],
+  "cefalopodos": [
+    {
+      "id": 201,
+      "nombre": "Pulpo",
+      "descripcion": "Textura inconfundible, ideal para preparar 'a feira' o a la brasa.",
+      "precio": "38,99 €/kg",
+      "imagen": "../img/Pulpo.jpeg"
+    },
+    {
+      "id": 202,
+      "nombre": "Sepia",
+      "descripcion": "Carne tierna y blanca, indispensable para una ración a la plancha.",
+      "precio": "28,99 €/kg",
+      "imagen": "../img/Sepia.jpeg"
+    },
+    {
+      "id": 203,
+      "nombre": "Calamar",
+      "descripcion": "Muy versátil: ideal para rebozar, guisar en su tinta o rellenar.",
+      "precio": "25,99 €/kg",
+      "imagen": "../img/Calamar.jpeg"
+    },
+    {
+      "id": 204,
+      "nombre": "Anillas de calamar",
+      "descripcion": "Limpias y listas para preparar los mejores calamares a la romana.",
+      "precio": "23,99 €/kg",
+      "imagen": "../img/AnillasCalamar.jpeg"
+    }
+  ]
+}

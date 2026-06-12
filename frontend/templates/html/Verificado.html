@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pescadería El Pilar</title>
+    <link rel="stylesheet" href="/static/css/General.css?v=3">
+    <link rel="stylesheet" href="/static/css/Login.css?v=3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/Verificado.css">
+</head>
+
+<body class="login-page">
+    <div class="login-container">
+        <div class="login-card" style="text-align: center; padding: 40px 30px;">
+            <a href="http://127.0.0.1:8000/Login.html" style="text-decoration: none; display: inline-block; outline: none; border: none;">
+                <img src="/static/img/LogoPesca.png" alt="Logo El Pilar" class="login-logo" style="margin-bottom: 30px;">
+            </a>
+            
+            {% if status == 'success' %}
+                <i class="fas fa-check-circle verification-icon icon-success"></i>
+                <h1 style="color: var(--azul-oscuro); margin-bottom: 15px;">{{ title }}</h1>
+                <p style="color: #666; font-size: 1.1rem; margin-bottom: 30px;">{{ message }}</p>
+                <a href="http://127.0.0.1:8000/Login.html" class="login-btn" style="text-decoration: none; display: inline-block;">
+                    Ir a Iniciar Sesión <i class="fas fa-arrow-right"></i>
+                </a>
+            {% else %}
+                <i class="fas fa-times-circle verification-icon icon-error"></i>
+                <h1 style="color: var(--azul-oscuro); margin-bottom: 15px;">{{ title }}</h1>
+                <p style="color: #666; font-size: 1.1rem; margin-bottom: 30px;">{{ message }}</p>
+                <a href="http://127.0.0.1:8000/Login.html" class="login-btn" style="text-decoration: none; display: inline-block; background-color: #dc3545;">
+                    Volver <i class="fas fa-undo"></i>
+                </a>
+            {% endif %}
+        </div>
+    </div>
+</body>
+
+</html>

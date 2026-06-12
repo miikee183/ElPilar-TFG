@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restablecer Contraseña - Pescadería El Pilar</title>
+    <link rel="stylesheet" href="/static/css/General.css?v=3">
+    <link rel="stylesheet" href="/static/css/Login.css?v=3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="login-page">
+    <div class="login-container">
+        <div class="login-card">
+            <div class="login-header">
+                <a href="Inicio.html">
+                    <img src="/static/img/LogoPesca.png" alt="Logo El Pilar" class="login-logo">
+                </a>
+                <h1>Restablecer Contraseña</h1>
+                <p>Por favor, introduce tu nueva contraseña</p>
+            </div>
+            <form id="reset-form" class="login-form">
+                <div class="input-group">
+                    <label for="password">Nueva Contraseña</label>
+                    <div class="input-wrapper" style="position: relative;">
+                        <i class="fas fa-lock" style="padding-right: 15px;"></i>
+                        <input type="password" id="password" name="password" placeholder="••••••••" required
+                            style="padding-right: 40px; border-radius: 8px;">
+                    </div>
+                </div>
+                <button type="submit" class="login-btn">
+                    Actualizar Contraseña <i class="fas fa-save"></i>
+                </button>
+            </form>
+            <div id="status-message" style="margin-top: 15px; text-align: center; font-weight: bold;"></div>
+            <div class="login-footer">
+                <p><a href="Login.html">Ir a Iniciar Sesión</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/RestablecerContrasena.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Perfil - Pescadería El Pilar</title>
+    <link rel="stylesheet" href="/static/css/General.css">
+    <link rel="stylesheet" href="/static/css/Edit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar-top">
+        <div class="container">
+            <div class="logo-container">
+                <img src="/static/img/LogoPesca.png" alt="Logo El Pilar" class="logo-img">
+                <span class="brand-name">EL PILAR</span>
+            </div>
+            <nav id="nav-menu">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Login.html">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container edit-container">
+        <div class="edit-box">
+            <div class="edit-header">
+                <h2><i class="fas fa-user-edit" style="color:var(--azul-claro);"></i> Editar Perfil</h2>
+                <p>Modifica tu información pública</p>
+            </div>
+            <form id="edit-form" class="edit-form-style">
+                <div class="input-group">
+                    <label for="apodo_nuevo"><i class="fas fa-user-tag"></i> Apodo / Nombre a Mostrar</label>
+                    <input type="text" id="apodo_nuevo" placeholder="Ej. El Marinero..." autocomplete="off">
+                </div>
+                <div class="input-group file-upload-wrapper">
+                    <label class="file-upload-label" for="imagen_file">
+                        <i class="fas fa-cloud-upload-alt"></i> Subir Foto Local
+                    </label>
+                    <input type="file" id="imagen_file" accept="image/*" style="display: none;">
+                </div>
+                <button type="submit" class="btn-edit">
+                    <i class="fas fa-save" style="margin-right:8px;"></i> Guardar Cambios
+                </button>
+            </form>
+            <div class="edit-footer">
+                <a href="Inicio.html"><i class="fas fa-arrow-left"></i> Volver al Inicio</a>
+            </div>
+        </div>
+    </main>
+    <script src="/static/js/Auth.js"></script>
+    <script src="/static/js/Editar.js?v=2"></script>
+</body>
+
+</html>

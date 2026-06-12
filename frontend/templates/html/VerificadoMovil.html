@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PescaAPP</title>
+    <link rel="stylesheet" href="/static/css/VerificadoMovil.css">
+    <script src="/static/js/VerificadoMovil.js"></script>
+    <script>
+        window.onload = function() {
+            redirectApp("{{ path }}", "{{ token }}");
+        };
+    </script>
+</head>
+<body>
+    <div class="caja">
+        <h2>El Pilar</h2>
+        {{ mensaje | safe }}
+    </div>
+</body>
+</html>

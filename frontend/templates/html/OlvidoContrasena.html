@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Contraseña - Pescadería El Pilar</title>
+    <link rel="stylesheet" href="/static/css/General.css?v=3">
+    <link rel="stylesheet" href="/static/css/Login.css?v=3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="login-page">
+    <div class="login-container">
+        <div class="login-card">
+            <div class="login-header">
+                <a href="Inicio.html">
+                    <img src="/static/img/LogoPesca.png" alt="Logo El Pilar" class="login-logo">
+                </a>
+                <h1>Recuperar Contraseña</h1>
+                <p>Introduce tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña</p>
+            </div>
+            <form id="forgot-form" class="login-form">
+                <div class="input-group">
+                    <label for="email">Correo Electrónico</label>
+                    <div class="input-wrapper">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
+                    </div>
+                </div>
+                <button type="submit" class="login-btn">
+                    Enviar Enlace <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+            <div id="status-message" style="margin-top: 15px; text-align: center; color: var(--azul-principal); font-weight: bold;"></div>
+            <div class="login-footer">
+                <p>¿Recordaste tu contraseña? <a href="Login.html">Inicia sesión</a></p>
+                <a href="Inicio.html" class="back-home">Volver a la web</a>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/OlvidoContrasena.js"></script>
+</body>
+
+</html>

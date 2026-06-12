@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Pescadería El Pilar</title>
+    <link rel="stylesheet" href="/static/css/General.css">
+    <link rel="stylesheet" href="/static/css/Contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="navbar-top">
+        <div class="container">
+            <div class="logo-container">
+                <img src="/static/img/LogoPesca.png" alt="Logo El Pilar" class="logo-img">
+                <span class="brand-name">EL PILAR</span>
+            </div>
+            <nav id="nav-menu">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Login.html">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" id="mobile-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    <main class="container contact-container">
+        <h1 class="page-title">Contacta con nosotros</h1>
+        <div class="contact-grid">
+            <section class="form-section">
+                <div class="contact-card">
+                    <h2>Déjanos tu comentario</h2>
+                    <p>Cuéntanos qué necesitas o cómo podemos mejorar.</p>
+                    <form id="contact-form">
+                        <div class="input-group">
+                            <label for="full-name">Nombre completo</label>
+                            <input type="text" id="full-name" name="name" placeholder="Escribe tu nombre" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="_replyto" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="comment">Tu comentario</label>
+                            <textarea id="comment" name="message" rows="8"
+                                placeholder="Escribe aquí tu mensaje detallado..." required></textarea>
+                        </div>
+                        <button type="submit" class="send-btn">
+                            Enviar comentario <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+            <aside class="info-section">
+                <div class="info-box">
+                    <h3><i class="fas fa-map-marker-alt"></i> Ubicación</h3>
+                    <p>Mercado de Tetuán, Puesto 4<br>Calle de Bravo Murillo, 194<br>28020 Madrid</p>
+                </div>
+                <div class="info-box">
+                    <h3><i class="fas fa-phone"></i> Teléfono</h3>
+                    <p>+34 915 79 34 36</p>
+                </div>
+                <div class="info-box">
+                    <h3><i class="fas fa-clock"></i> Horario</h3>
+                    <p>Lunes a Viernes: 09:00 - 14:00 / 17:00 - 20:00<br>Sábados: 09:00 - 14:30</p>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer class="footer-bottom">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>EL PILAR</h3>
+                <p>© 2026 Pescadería El Pilar - Mercado de Tetuán</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/static/js/Contacto.js"></script>
+    <script src="/static/js/Auth.js"></script>
+</body>
+
+</html>
