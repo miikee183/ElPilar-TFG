@@ -1,7 +1,7 @@
 # El Pilar TFG
 Este fue el TFG que presente para obtener el título del grado superior "Desarrollo de aplicaciones multiplataforma".
 
-![Imagen](frontend/static/img/FondoInicio.jpeg)
+![Imagen](frontend/static/img/FondoInicio.png)
 
 # Idea
 La idea del proyecto es digitalizar el negocio de mi familia, mi padre lleva trabajando en una pescadería toda su vida junto a un compañero suyo, actualmente no disponen ni de WEB ni de APP, además de que hacen pedidos a domicilio a través de llamadas que requieren tiempo en momentos trágicos con mucha afluencia en el mercado.
